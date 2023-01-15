@@ -67,6 +67,7 @@ color: #727272;
     padding-bottom: 0px;
 }
 .heading-description{
+    margin-top: 30px;
     font-weight: 400;
 font-size: 16px;
 
@@ -128,6 +129,15 @@ margin-bottom: 32px;
     margin-top: 130px;
 
 }
+#feature-photo{
+    width: 550px;
+}
+.feature-enjoy{
+    padding-right: 75px;
+}
+.providing-features{
+    margin-bottom: 20px;
+}
 .providing-feature-title{
     padding: 21px;
     border-left: 5px solid #FF900E; 
@@ -143,6 +153,7 @@ color: #131313;
     font-weight: 600;
 font-size: 20px;
 line-height: 23px;
+padding-bottom: 5px;
 
 /* Dark 01 */
 
@@ -157,13 +168,15 @@ color: #131313;
 }
 .feature-info{
     padding: 25px 42px 25px 30px;
-    background-color:rgb(250, 245, 245);
+    background-color:#FFFFFF;
     border-radius: 10px;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
 }
 
 #experience-btn{
     position: relative;
-    top:-60px;
+    top:-100px;
+    padding: 30px;
 
 
 }
@@ -183,5 +196,8 @@ text-align: center;
 color: #FFFFFF;
 
 }
+
+
+/* acheivement section will starts here */
 
 
