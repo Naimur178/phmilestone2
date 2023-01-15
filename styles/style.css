@@ -1,0 +1,93 @@
+/* The Universal font Style */
+*{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+.btn-primary, .header-btn{
+    background: #FF900E;
+    border-radius: 5px;
+    color: #FFFFFF; 
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    margin-left: 670px;
+    border-style: none;
+    text-align: center;
+    padding: 10px 10px;
+    margin-bottom: 50px;
+  
+}
+.color-primary{
+    color: #FF900E;
+}
+/* all description text style */
+.feature-description{
+    font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #727272;
+
+}
+
+/* Header style is starting here------------- */
+.header{
+    background: rgba(255, 144, 14, 0.1);
+    margin: 0;
+}
+
+.header-nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 55px 230px;
+}
+.menues ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+.menues ul li{
+    text-decoration: none;
+    list-style-type: none;
+    padding: 0px 10px;
+}
+.menues ul li a{
+    text-decoration: none;
+}
+.headings{
+    width: 862px;
+    height: 250px;
+    margin-left: 300px;
+    margin-bottom: 33px;
+}
+
+.heading-title{
+    font-weight: 700;
+    font-size: 64px;
+    color: #131313;
+    text-align: center;
+    padding-bottom: 0px;
+}
+.heading-description{
+    font-weight: 400;
+font-size: 16px;
+
+text-align: center;
+
+color: #727272;
+}
+.header-img{
+    display: block;
+    width: 1150px;
+    margin: 0px auto;
+    padding-bottom: 45px;
+}
+
+/* features section starts here ---------- */
+
+.features{
+    margin-top: 85px;
+}
+
+
+
+
+
