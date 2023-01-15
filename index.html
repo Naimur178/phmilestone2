@@ -9,6 +9,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <style>
+        .sponsors-details div img{
+            -webkit-filter: grayscale(100%);
+            filter: grayscale(100%);
+        }
+    </style>
 </head>
 <body>
     <header class="header">
@@ -110,13 +116,81 @@
             <p>Experience</p>
             </button>
         </section>
+        <section class="some-facts">
+            <h2 class="fact-title">Some Facts</h2>
+            <p class="fact-description">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
+
+        </section>
         <!-- Acheivemet section  starts here  -->
-        <section class="acheivement">
-            
+        <section class="acheivements">
+            <div class="acheivement-container">
+                <div class="acheivement">
+                    <img src="/images/icons/ribon.png" alt="" style="margin: 0px auto 10px;display: block;">
+                    <h3 class="acheivement-title">54</h3>
+                    <p class="acheivement-description">Award Winnings</p>
+                </div>
+                <div class="acheivement">
+                    <img src="/images/icons/projects.png" alt="" style="margin: 0px auto 10px;display: block;">
+                    <h3 class="acheivement-title">1458</h3>
+                    <p class="acheivement-description">Project Finished</p>
+                </div>
+                <div class="acheivement">
+                    <img src="/images/icons/customers.png" alt="" style="margin: 0px auto 10px;display: block;">
+                    <h3 class="acheivement-title">590</h3>
+                    <p class="acheivement-description">Clients Worked</p>
+                </div>
+                <div class="acheivement">
+                    <img src="/images/icons/email.png" alt="" style="margin: 0px auto 10px;display: block;">
+                    <h3 class="acheivement-title">22578</h3>
+                    <p class="acheivement-description">Email Send</p>
+                </div>
+            </div>
+        </section>
+        <section class="sponsors">
+            <div class="sponsor-para">
+                <h2 class="sponsors-title">Our Sponsors</h2>
+                <p class="sponsors-paras">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
+            </div>
+            <div class="sponsors-details">
+                <div class="sponsor"><img src="/images/sponsors/amazon.png" alt=""></div>
+                <div class="sponsor"><img src="/images/sponsors/figma.png" alt=""></div>
+                <div class="sponsor"><img src="/images/sponsors/google.png" alt=""></div>
+                <div class="sponsor"><img src="/images/sponsors/spotify.png" alt=""></div>
+                <div class="sponsor"><img src="/images/sponsors/telerama.png" alt=""></div>
+
+            </div>
         </section>
     </main>
-    <footer>
+    <footer class="footer-section">
+       <div class="copyright-section">
+        <p class="footer-description">All rights reserved copyright@2023 startup landing page design</p>
+       </div>
+       <section class="contact">
+        <div class="contact-info">
+            <h3 class="contact-title">Lets Connect</h3>
+            <p class="contact-description">
+                Please fill out the form on this section to contact with me or call between 9:00 A.M and 8.00 P.M ET, Monday through Friday.
+            </p>
+            <a href=""><img src="images/icons/facebook.png" alt=""></a>
+            <a href=""><img src="images/icons//insta.png" alt=""></a>
+            <a href=""><img src="images/icons/twitter.png" alt=""></a>
 
+        </div>
+        <div>
+            <h3 class="contact-title">Contact Me</h3>
+            <form action="">
+                <input type="text" name="" id="Name" class="name" placeholder="YourName">
+                <br>
+                <input type="email" name="" id="" placeholder="Your Email" class="name">
+                <textarea name="" id="message" cols="30" rows="5" placeholder="Message" class="text"></textarea>
+                <br>
+                <input type="submit" value="submit" id="submit">
+
+
+            </form>
+        </div>
+    </section>
+    <section class="finished"></section>
     </footer>
     
 </body>
