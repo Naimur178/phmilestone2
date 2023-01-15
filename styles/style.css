@@ -21,7 +21,7 @@
     color: #FF900E;
 }
 /* all description text style */
-.feature-description{
+.feature-description, .providing-feature-description, .feature-info-description{
     font-weight: 400;
 font-size: 16px;
 line-height: 26px;
@@ -85,9 +85,103 @@ color: #727272;
 
 .features{
     margin-top: 85px;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 
+.features-images{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
 
+.feature-explore{
+    padding-top: 202px;
+    max-width: 500px;
+}
+
+.feature-title{
+    font-weight: 500;
+font-size: 45px;
+line-height: 53px;
+color: #727272;
+margin-bottom: 24px;
+}
+
+.feature-explore p{
+    font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+
+color: #727272;
+margin-bottom: 32px;
+
+}
+
+/* feature enjoy section--------------- */
+.hello{
+    display: flex;
+    justify-content:center;
+    
+    width: 1150px;
+    margin: 0px auto;
+    margin-top: 130px;
+
+}
+.providing-feature-title{
+    padding: 21px;
+    border-left: 5px solid #FF900E; 
+    font-weight: 700;
+font-size: 45px;
+line-height: 53px;
+margin-bottom: 5px;
+
+color: #131313;
+    
+}
+.feature-info-title{
+    font-weight: 600;
+font-size: 20px;
+line-height: 23px;
+
+/* Dark 01 */
+
+color: #131313;
+
+}
+
+.feature-feature{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.feature-info{
+    padding: 25px 42px 25px 30px;
+    background-color:rgb(250, 245, 245);
+    border-radius: 10px;
+}
+
+#experience-btn{
+    position: relative;
+    top:-60px;
+
+
+}
+#experience-btn h2{
+    font-weight: 700;
+    font-size: 30px;
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+#experience-btn p{
+    font-weight: 500;
+font-size: 18px;
+text-align: center;
+
+color: #FFFFFF;
+
+}
 
 
