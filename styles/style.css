@@ -2,6 +2,7 @@
 *{
     font-family: 'Open Sans', sans-serif;
     margin: 0;
+    padding: 0;
 }
 .btn-primary, .header-btn{
     background: #FF900E;
@@ -374,17 +375,18 @@ margin-bottom: 150px;
     }
     .headings{
         width: 100%;
-        padding: 0px 5px;
+        /* padding: 0px 5px; */
         margin-bottom: 33px;
         margin-left: 0px;
+        margin: 0;
     }
     .heading-title{
-        width: 100%-5px;
+        width: 100%;
         font-weight: 700;
         font-size: 38px;
         color: #131313;
         text-align: center;
-        padding: 5px;
+        padding: 0px;
         margin: 0px;
     }
     .heading-description{
@@ -541,10 +543,11 @@ margin-bottom: 150px;
         margin-left: 5px;
     }
     .fact-title {
+        width: 100%;
         font-weight: 700;
-        font-size: 38px;
+        font-size: 37px;
         color: #131313;
-        padding: 10px;
+        padding: 0px;
         margin: 0px;
         margin-bottom: 19px;
         text-align: center;
@@ -552,7 +555,7 @@ margin-bottom: 150px;
     .some-facts {
         max-width: 100%;
         align-content: center;
-        margin: 7px;
+        margin: 0px;
         margin-bottom: 100px;
         
     }
